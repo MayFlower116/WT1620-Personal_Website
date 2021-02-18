@@ -1,0 +1,45 @@
+/* Text */
+p {
+    color: pink;
+}
+
+ul {
+    color: pink;
+}
+
+a {
+    color: deeppink;
+}
+
+h1 {
+    color: rgb(255, 101, 204);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2,h3,h4,h5,h6 {
+    color: pink;
+}
+
+/* Text --- CLOSE */
+
+/* Navigation bar */
+.nav-bar {
+    background-color: rgb(67, 127, 255);
+    text-align: center;
+}
+.nav-bar a {
+    color: purple;
+}
+/* Navigation bar --- CLOSE*/
+
+/* Other */
+/* This section is to be renamed, expanded and divided as reasonably necessary */
+body {
+    background-color: midnightblue;
+}
+
+/* Other --- CLOSE */
+
+
+
+
