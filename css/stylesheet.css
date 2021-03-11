@@ -1,11 +1,15 @@
 /* Text */
-p {
+p, ul, h2 {
     color: pink;
 }
 
-ul {
-    color: pink;
-}
+/* Colours
+EDDDD0
+DB504A
+334259
+E5E5DC
+A6CAD4
+*/
 
 a {
     color: deeppink;
@@ -13,11 +17,11 @@ a {
 
 h1 {
     color: rgb(255, 101, 204);
-    font-family: 'Montserrat', sans-serif;
+    
 }
 
-h2,h3,h4,h5,h6 {
-    color: pink;
+.index_title {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Text --- CLOSE */
