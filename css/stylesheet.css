@@ -1,34 +1,22 @@
 /* Text */
 p, ul, h2 {
-    color: pink;
+    color: #E5E5DC;
 }
 
-/* Colours
-EDDDD0
-DB504A
-334259
-E5E5DC
-A6CAD4
-*/
-
 a {
-    color: deeppink;
+    color: #DB504A;
 }
 
 h1 {
-    color: rgb(255, 101, 204);
-    
+    color: #EDDDD0;
 }
 /* Text --- CLOSE */
 
 
-/* Header */
-header {
-    background-color: rgb(67, 127, 255);
+/* Header/Footer */
+header, footer {
+    background-color: #A6CAD4;
     text-align: center;
-}
-header a {
-    color: purple;
 }
 header li {
     display: inline;
@@ -38,13 +26,6 @@ header h1 {
     font-family: 'Montserrat', sans-serif;
 }
 /* Header --- CLOSE*/
-
-/* Footer */
-footer {
-    background-color: rgb(67, 127, 255);
-    text-align: center;
-}
-/* Footer --- CLOSE*/
 
 
 /* Index/Home Page*/
@@ -70,7 +51,7 @@ footer {
 /* Other */
 /* This section is to be renamed, expanded and divided as reasonably necessary */
 body {
-    background-color: midnightblue;
+    background-color: #334259;
 }
 
 /* Other --- CLOSE */
