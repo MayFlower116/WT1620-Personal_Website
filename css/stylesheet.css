@@ -19,22 +19,42 @@ h1 {
     color: rgb(255, 101, 204);
     
 }
-
-.index_title {
-    font-family: 'Montserrat', sans-serif;
-}
-
 /* Text --- CLOSE */
 
-/* Navigation bar */
-.nav-bar {
+
+/* Header */
+header {
     background-color: rgb(67, 127, 255);
     text-align: center;
 }
-.nav-bar a {
+header a {
     color: purple;
 }
-/* Navigation bar --- CLOSE*/
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+/* Header --- CLOSE*/
+
+
+/* Index/Home Page*/
+
+.index_container {
+    display: grid;
+    /* grid-column: 1 / 2; */
+    grid-template-columns: auto auto;
+    grid-auto-columns: 100px;
+    gap: 10px;
+}
+
+.index_container picture {
+    padding: 10px;
+}
+
+.item1 {
+    grid-column: 1 / span 2;
+}
+
+/* Index/Home Page --- CLOSE*/
 
 /* Other */
 /* This section is to be renamed, expanded and divided as reasonably necessary */
