@@ -30,10 +30,21 @@ header {
 header a {
     color: purple;
 }
+header li {
+    display: inline;
+    padding: 20px;
+}
 header h1 {
     font-family: 'Montserrat', sans-serif;
 }
 /* Header --- CLOSE*/
+
+/* Footer */
+footer {
+    background-color: rgb(67, 127, 255);
+    text-align: center;
+}
+/* Footer --- CLOSE*/
 
 
 /* Index/Home Page*/
