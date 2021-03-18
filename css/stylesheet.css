@@ -44,8 +44,28 @@ header h1 {
     padding: 10px;
 }
 
-
 /* Index/Home Page --- CLOSE*/
+
+.index_container {
+    gap: 10px;
+}
+
+/* Course Page*/
+
+/* .course_container {
+    display: grid;
+    grid-template-columns: 20% auto;
+    gap: 10px;
+    text-align: left;
+}
+
+.course_date {
+    grid-row: 2 / span 1;
+} */
+
+/* Course page --- CLOSE*/
+
+
 
 /* Other */
 /* This section is to be renamed, expanded and divided as reasonably necessary */
@@ -74,9 +94,22 @@ body {
     }
 }
 
-
-
 /* Index/Home Page RESPONSIVE --- CLOSE*/
 
+/* Course Page RESPONSIVE*/
 
+@media screen and (min-width: 600px) {
+    .course_container {
+        display: grid;
+        grid-template-columns: 20% auto;
+        gap: 10px;
+        text-align: left;
+    }
+    
+    .course_date {
+        grid-row: 2 / span 1;
+    }
+}
+
+/* Course page RESPONSIVE --- CLOSE*/
 
