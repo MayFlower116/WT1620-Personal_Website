@@ -25,8 +25,7 @@ header a {
     color: #660014;
 }
 header li {
-    display: inline;
-    padding: 20px;
+    padding: 5px;
 }
 header h1 {
     font-family: 'Montserrat', sans-serif;
@@ -113,3 +112,13 @@ body {
 
 /* Course page RESPONSIVE --- CLOSE*/
 
+
+/* Header/Footer RESPONSIVE*/
+
+@media screen and (min-width: 600px) {
+    header li {
+        display: inline;
+        padding: 20px;
+}
+
+/* Header/Footer RESPONSIVE ---CLOSE*/
