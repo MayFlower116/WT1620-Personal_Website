@@ -4,11 +4,11 @@ p, ul, h2 {
 }
 
 a {
-    color: #DB504A;
+    color: #F9D2ED;
 }
 
 h1 {
-    color: #EDDDD0;
+    color: #2D2D2A;
 }
 /* Text --- CLOSE */
 
@@ -17,6 +17,12 @@ h1 {
 header, footer {
     background-color: #A6CAD4;
     text-align: center;
+}
+footer p {
+    color: #2D2D2A;
+}
+header a {
+    color: #660014;
 }
 header li {
     display: inline;
@@ -31,10 +37,6 @@ header h1 {
 /* Index/Home Page*/
 
 .index_container {
-    display: grid;
-    /* grid-column: 1 / 2; */
-    grid-template-columns: auto auto;
-    grid-auto-columns: 100px;
     gap: 10px;
 }
 
@@ -42,9 +44,6 @@ header h1 {
     padding: 10px;
 }
 
-.item1 {
-    grid-column: 1 / span 2;
-}
 
 /* Index/Home Page --- CLOSE*/
 
@@ -56,6 +55,28 @@ body {
 
 /* Other --- CLOSE */
 
+
+/* Index/Home Page RESPONSIVE*/
+
+@media screen and (min-width: 750px) {
+    .index_container {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+    
+    .index_container picture {
+        padding: 10px;
+    }
+    
+    .item1 {
+        grid-column: 1 / span 2;
+    }
+}
+
+
+
+/* Index/Home Page RESPONSIVE --- CLOSE*/
 
 
 
