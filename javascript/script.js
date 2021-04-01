@@ -35,16 +35,13 @@ for (let item of courseList) {
         alert(`Yes, I am taking ${item.code} - ${item.name}`);
         num_exists = true
         break;
-    }
-    else {
-        console.log("NO!!!!, I am NOT taking " + item.code + " - " + item.name);
     };
 };
 
 if (num_exists === false) {
     class4.code = given_code
     courseList.push(class4)
-    console.log("Class4 added")
+    console.log("Class4 added to courseList under the code given by the user")
 }
 else {
     num_exists === false
