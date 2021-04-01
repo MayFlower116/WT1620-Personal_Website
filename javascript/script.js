@@ -12,15 +12,29 @@ let class2 = {
 
 let class3 = {
     code: "MATH 1310",
-    name: "Technical Matyh for IT",
+    name: "Technical Meth for IT",
 };
 
-var courseList = [class1, class2, class3]
+var courseList = [class1, class2, class3];
 
 let user;
 do{
-    code = prompt("Enter a code.")
-} while(isNaN(code) || length(code) !== 4)
+    given_code = prompt("Enter a 4-digit number code... IF YOU DARE!!!!!")
+} while(code.length !== 4 || isNaN(code));
+
+// array.includes("");
+
+for (let item of courseList) {
+    if (item.code.includes(given_code) == true) {
+        console.log(`Yes, I am taking ${item.code} - ${item.name}`);
+    }
+    else {
+        console.log("NO!!!!, I am NOT taking " + item.code + " - " + item.name);
+    };
+};
+
+// git branch = lab7
+// Note (mar30
 
 
 
@@ -89,12 +103,12 @@ do{
 // // console.log(item);
 // }
 
-///////// let person=
-///////// {
-/////////     name :'Celeste',
-/////////    age:31,
-/////////    height:'170cm',
-///////// };
+// let person=
+// {
+//     name :'Celeste',
+//    age:31,
+//    height:'170cm',
+// };
 // for (let key in person )
 // {
 //     console.log(`Person's ${key} is ${person[key]}`);
